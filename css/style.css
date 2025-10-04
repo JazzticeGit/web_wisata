@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    background-color: #eaeaea;
+}
+
+/* Nav Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    /* background-color: #e8e8e8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo::before {
+    content: '●';
+    font-size: 24px;
+    margin-right: 8px;
+    color: #000;
+}
+
+.logo::after {
+    content: 'BALIGUIDE';
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+}
+
+.logo::after span:first-child {
+    color: #000;
+}
+
+/* Navbar Menu */
+.navbbar{
+    background-color: #fff;
+    height: 50px;
+    padding: 14px;
+    border-radius: 100px;
+    align-items: center;
+}
+
+.navbbar ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    align-items: center;
+}
+
+.navbbar ul li {
+    display: inline-block;
+}
+
+.navbbar ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 25px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+
+
+.navbbar ul li.li1 a {
+    background-color: #4169ff;
+    color: #fff;
+}
+
+.navbbar ul li.li1 a:hover {
+    background-color: #3557d9;
+}
+
+
+.navbbar ul li.li2 a:hover,
+.navbbar ul li.li3 a:hover {
+    background-color: #d0d0d0;
+}
+
+
+.iconlink ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    align-items: center;
+}
+
+.iconlink ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.iconlink ul li i {
+    color: #4169ff;
+    font-size: 16px;
+}
+
+.iconlink ul li:hover {
+    background-color: #4169ff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(65, 105, 255, 0.3);
+}
+
+.iconlink ul li:hover i {
+    color: #fff;
+}
+
+/* search bar */
+.search{
+    
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px 20px;
+    }
+
+    .navbbar ul {
+        gap: 10px;
+    }
+
+    .navbbar ul li a {
+        padding: 8px 20px;
+        font-size: 13px;
+    }
+
+    .iconlink ul {
+        gap: 10px;
+    }
+}
