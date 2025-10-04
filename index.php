@@ -41,8 +41,16 @@
     <!-- ============================== SEARCH BAR ================================= -->
 
     <form action="search.php" method="post" class="search">
-        <input type="text" name="search" id="search" placeholder="Search">
-        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        <input type="text" name="search" id="search" placeholder="Cari Tujuan Anda">
+        <button type="submit" class="btn_search"><i class="fa-solid fa-magnifying-glass"></i></button>
     </form>
+
+    <!-- =============================== MAIN CONTENT ============================== -->
+    <!-- =============================== MAIN CONTENT ============================== -->
+
+    <div class="container">
+        <h1>Selamat <span>Datang di</span> Pulau Dewata</h1>
+        
+    </div>
 </body>
 </html>
