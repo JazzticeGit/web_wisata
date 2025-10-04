@@ -52,14 +52,18 @@
     <!-- =============================== MAIN CONTENT ============================== -->
 
     <div class="container">
-        <p class="txt-1">Selamat <br>Datang di <br> <span>Pulau Dewata</span> </p>
 
-        <img src="image/download (5).jpeg" alt="" srcset="" class="img1">
-        
-        <p class="txt-2">Jelajahi pesona Pulau Dewata dengan pengalaman tak terlupakan.Dari pantai berpasir putih, budaya yang kaya, hingga panorama alam yang memukau, semua bisa kamu temukan di sini</p>
+        <!-- ======= Sebelah Kiri =========== -->
 
-        <a href="wisata.php" target="_blank" rel="noopener noreferrer"><button>Semua Wisata</button></a>
+        <div class="left-main">
+            <p class="txt-1">Selamat <br>Datang di <br> <span>Pulau Dewata</span> </p>
 
+            <img src="image/download (5).jpeg" alt="" srcset="" class="img1">
+
+            <p class="txt-2">Jelajahi pesona Pulau Dewata dengan pengalaman tak terlupakan.Dari pantai berpasir putih, budaya yang kaya, hingga panorama alam yang memukau, semua bisa kamu temukan di sini</p>
+
+            <a href="wisata.php" target="_blank" rel="noopener noreferrer"><button class="btn-01">Lihat Semua</button></a>
+        </div>
 
         <!-- ===== Sebelah Kanan ======= -->
 

@@ -45,9 +45,10 @@ nav {
 .navbbar{
     background-color: #fff;
     height: 50px;
-    padding: 14px;
+    padding: 12.5px;
     border-radius: 100px;
     align-items: center;
+    
 }
 
 .navbbar ul {
@@ -146,30 +147,49 @@ nav {
 
 /* Main Content sebelah Kiri */
 
+.container{
+    background: #ffffff;
+    height: 900px;
+    border-radius: 69px;
+    padding-top: 40px;
+    margin-top: 40px;
+    display: flex;
+    position: relative; 
+    overflow: visible; 
+}
+
+.left-main{
+    margin-left: 50px;
+    z-index: 2; 
+    position: relative; 
+    left: 20px;
+}
+
+
+.txt-1 span{
+    color: #2a02f4;
+    background-color: #ffffff;
+    display: inline-block;
+    padding: 0px 20px 0px 0px;
+    border-radius: 27px;
+    margin-top: 10px;
+    font-size: 80px;
+    line-height: 1.1;
+    position: relative; 
+    z-index: 3; 
+}
+
 .txt-1{
     color: #3557d9;
     font-size: 80px;
     line-height: 1.1;
     margin-left: 4px;
-    margin-top: 100px;
-}
-
-
-
-.txt-1 span{
-    color: #2a02f4;
-    background-color: #eaeaea;
-    display: inline-block;
-    padding: 0px 100px 0px 0px;
-    border-radius: 8px;
-    margin-top: 10px;
-    font-size: 80px;
-    line-height: 1.1;
+    margin-top: 40px;
 }
 
 .img1{
     height: 200px;
-    width: 500px;
+    width: 378px;
     margin-left: 10px;
     margin-top: 20px;
     border-radius: 15px;
@@ -177,11 +197,47 @@ nav {
 }
 
 .txt-2{
-    width: 200px;
-    background: #f0f0f0;
+    width: 390px;
     padding: 10px;
     overflow-wrap: break-word;
 }
+
+.btn-01{
+    width: 390px;
+    padding: 10px 10px;
+    border: none;
+    background: #2a02f4;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    transition: ease-in-out 0.2s;
+}
+
+.btn-01:hover{
+    background: #000282;
+}
+
+/* Bagian Sebelah Kanan */
+
+.right-main{
+    margin-left: 0px;
+    margin-left: 0px;
+    position: relative; 
+    z-index: 1;
+}
+
+.right-main img{
+    width: 950px;
+    height: 720px;
+    border-radius: 27px;
+    object-fit: cover;
+    position: relative;
+    right: 50px;
+}
+
 
 /* Responsif */
 @media (max-width: 768px) {
