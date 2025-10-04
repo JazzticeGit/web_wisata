@@ -73,12 +73,17 @@
 
             <div class="glass-fx">
                 <p>Taman budaya</p>
-                <h2>GWK</h2>
-                <p>(Garuda Wisnu Kencana)</p>
 
+            <div class="title-btn">
+                <h2>GWK</h2>
                 <a href="wisata.php?id"><button>Lihat Wisata</button></a>
             </div>
+
+            <p>(Garuda Wisnu Kencana)</p>
         </div>
+</div>
+
+
     </div>
 </body>
 </html>
