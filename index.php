@@ -107,7 +107,7 @@
                             <i class="fa-solid fa-location-dot"></i>
                             <p>Jl. Raya Uluwatu, Ungasan, Kuta Selatan, Kabupaten Badung</p>
                         </div>
-                        <div class="rating">★★★★★</div>
+                        <div class="rating">★★★★★ <span>5/5</span> </div>
                         <div class="tombol">
                             <a href="detail.php"><button><i class="fa-solid fa-calendar-days"></i> Penawaran</button></a>
                             <a href="#"><button><i class="fa-solid fa-bookmark"></i></button></a>
@@ -124,7 +124,7 @@
                             <i class="fa-solid fa-location-dot"></i>
                             <p>Jl. Raya Uluwatu, Ungasan, Kuta Selatan, Kabupaten Badung</p>
                         </div>
-                        <div class="rating">★★★★★</div>
+                        <div class="rating">★★★★★ <span>5/5</span></div>
                         <div class="tombol">
                             <a href="detail.php"><button><i class="fa-solid fa-calendar-days"></i> Penawaran</button></a>
                             <a href="#"><button><i class="fa-solid fa-bookmark"></i></button></a>
@@ -141,7 +141,7 @@
                             <i class="fa-solid fa-location-dot"></i>
                             <p>Jl. Raya Uluwatu, Ungasan, Kuta Selatan, Kabupaten Badung</p>
                         </div>
-                        <div class="rating">★★★★★</div>
+                        <div class="rating">★★★★★ <span>5/5</span></div>
                         <div class="tombol">
                             <a href="detail.php"><button><i class="fa-solid fa-calendar-days"></i> Penawaran</button></a>
                             <a href="#"><button><i class="fa-solid fa-bookmark"></i></button></a>
@@ -158,7 +158,7 @@
                             <i class="fa-solid fa-location-dot"></i>
                             <p>Jl. Raya Uluwatu, Ungasan, Kuta Selatan, Kabupaten Badung</p>
                         </div>
-                        <div class="rating">★★★★★</div>
+                        <div class="rating">★★★★★ <span>5/5</span></div>
                         <div class="tombol">
                             <a href="detail.php"><button><i class="fa-solid fa-calendar-days"></i> Penawaran</button></a>
                             <a href="#"><button><i class="fa-solid fa-bookmark"></i></button></a>
@@ -175,7 +175,7 @@
                             <i class="fa-solid fa-location-dot"></i>
                             <p>Jl. Raya Uluwatu, Ungasan, Kuta Selatan, Kabupaten Badung</p>
                         </div>
-                        <div class="rating">★★★★★</div>
+                        <div class="rating">★★★★★ <span>5/5</span></div>
                         <div class="tombol">
                             <a href="detail.php"><button><i class="fa-solid fa-calendar-days"></i> Penawaran</button></a>
                             <a href="#"><button><i class="fa-solid fa-bookmark"></i></button></a>
@@ -199,6 +199,79 @@
         <!-- Lihat Semua Button -->
         <div class="lihat-semua">
             <button onclick="location.href='wisata.php'">Lihat Top Wisata</button>
+        </div>
+    </div>
+
+    <!-- ==================================== Prestasi tahun 2024 ========================================== -->
+    <!-- ==================================== Prestasi tahun 2024 ========================================== -->
+
+    <div class="data-wisata-section">
+        <div class="data-container">
+            <!-- Left Section -->
+            <div class="left-section">
+                <h2>Data Wisata Bali Pada Tahun 2024</h2>
+                <p>Wisata Bali menawarkan kombinasi keindahan alam yang menawan, seperti pantai berpasir putih, sawah terasering, air terjun eksotis dan gunung berapi, serta kekayaan budaya yang kuat melalui pura-pura sakral, desa tradisional, dan seni pertunjukan.</p>
+                
+                <div class="image-container">
+                    <img src="image/Pantai Kelingking, Bali.jpeg" alt="Kelingking Beach Nusa Penida">
+                </div>
+            </div>
+
+            <!-- Divider -->
+            <div class="divider"></div>
+
+            <!-- Right Section - Statistics -->
+            <div class="right-section">
+                
+                <!-- Stat 1 -->
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fa-solid fa-chart-line"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3>Total Pengunjung Asing</h3>
+                        <p>± 2.64 juta orang (naik 9 % dibanding periode sama tahun sebelumnya) Menurut</p>
+                        <a href="https://roadgenius.com" target="_blank">roadgenius.com</a>
+                    </div>
+                </div><br>
+
+                <!-- Stat 2 -->
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fa-solid fa-users"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3>Total Pengunjung Asing</h3>
+                        <p>± 2.64 juta orang (naik 9 % dibanding periode sama tahun sebelumnya) Menurut</p>
+                        <a href="https://roadgenius.com" target="_blank">roadgenius.com</a>
+                    </div>
+                </div><br>
+
+                <!-- Stat 3 -->
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fa-solid fa-plane-arrival"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3>Total Pengunjung Asing</h3>
+                        <p>± 2.64 juta orang (naik 9 % dibanding periode sama tahun sebelumnya) Menurut</p>
+                        <a href="https://roadgenius.com" target="_blank">roadgenius.com</a>
+                    </div>
+                </div><br>
+
+                <!-- Stat 4 -->
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fa-solid fa-plane-arrival"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3>Total Pengunjung Asing</h3>
+                        <p>± 2.64 juta orang (naik 9 % dibanding periode sama tahun sebelumnya) Menurut</p>
+                        <a href="https://roadgenius.com" target="_blank">roadgenius.com</a>
+                    </div>
+                </div><br>
+
+            </div>
         </div>
     </div>
 
