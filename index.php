@@ -9,7 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 </head>
 <body>
 
@@ -331,7 +333,28 @@
             </div>
         </div>
     </div>
+</div><br><br>
+
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+    <div class="swiper-slide card pink">
+        <h3>DESTINASI TERBAIK DI DUNIA</h3>
+        <p>(TripAdvisor Traveler's Choice Awards 2025): Pengakuan ini diperoleh dari jutaan ulasan positif wisatawan mengenai pengalaman budaya Bali yang unik</p>
+        <a href="#">Selengkapnya →</a>
+    </div>
+    <div class="swiper-slide card blue">
+        <h3>DESTINASI PALING ROMANTIS DI DUNIA</h3>
+        <p>(World Travel Awards 2024): Penghargaan bergengsi ini diberikan kepada Bali setelah mengalahkan pesaing-pesaing kuat lainnya seperti Maladewa.</p>
+        <a href="#">Selengkapnya →</a>
+    </div>
+    <div class="swiper-slide card green">
+        <h3>PULAU TERINDAH DI ASIA</h3>
+        <p>(Condé Nast Traveler): Pembaca majalah ternama ini juga memilih Bali sebagai pulau terindah di Asia, menunjukkan keindahan alamnya yang menakjubkan.</p>
+        <a href="#">Selengkapnya →</a>
+    </div>
+    </div>
 </div>
+
 
 
 
@@ -339,8 +362,9 @@
         <i class="fa-solid fa-arrow-up"></i>
     </button>
 
-    <script>
+    <script >
         // ============ Card Scroll Functionality ============
+        
         const wrapper = document.getElementById('cardsWrapper');
         const scrollLeft = document.getElementById('scrollLeft');
         const scrollRight = document.getElementById('scrollRight');
@@ -486,6 +510,14 @@
             
             lastScroll = currentScroll;
         });
+
+        src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
+
+
+            const swiper = new Swiper(".mySwiper", {
+                grabCursor: true,
+                effect: "cards",
+    });
     </script>
 </body>
 </html>

@@ -1056,6 +1056,37 @@ nav {
     font-weight: 500;
 }
 
+.card {
+    width: 320px;
+    height: 180px;
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card.pink {
+    background: rgba(255, 182, 193, 0.5);
+}
+
+.card.blue {
+    background: linear-gradient(135deg, #007bff, #00c6ff);
+}
+
+.card.green {
+    background: rgba(144, 238, 144, 0.5);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 /* Responsive Design */
 @media (max-width: 1024px) {
     .about-section {
